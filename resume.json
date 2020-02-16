@@ -138,9 +138,9 @@
             "company": "CPA Global",
             "name": "CPA Global",
             "location": {
-                "city": "Gurgaon",
+                "city": "Noida",
                 "countryCode": "IND",
-                "region": "Haryana"
+                "region": "NCR"
             },
             "position": "Senior Software Engineer",
             "keywords": [
@@ -374,7 +374,8 @@
                 "AWS",
                 "GraphQL",
                 "NodeJs",
-                "Agile Principle and Practices"
+                "Agile Principle and Practices",
+                "Gatsby.js"
             ]
         },
         {
