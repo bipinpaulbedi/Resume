@@ -1,0 +1,488 @@
+{
+    "basics": {
+        "name": "Bipin Paul Bedi",
+        "label": "Azure Certified | AWS Certified | Sitecore Certified | React Expert | Microsoft Stack Architect",
+        "image": "",
+        "email": "bipinpaulbedi@gmail.com",
+        "phone": "+61 404 13 5259",
+        "url": "http://bipinpaulbedi.com",
+        "summary": "Techno-functional business consultant with 12+ years of experience in providing web/mobile technology solutions in open source & Microsoft technologies. Strong experience in business analysis, designing and developing solutions for Digital Marketing Platforms by converting business requirements into functional and technical design specifications and implementation from end to end, with expertise in Sitecore, Sitefinity & Umbraco. Experience in pre-sales activities like responding to RFPs, CMS/CXM package evaluation. Proven track record in MSBI, i.e. Power BI, SSIS, SSRS etc",
+        "location": {
+            "address": "318/2 Meredith Avenue",
+            "postalCode": "2138",
+            "city": "Rhodes",
+            "countryCode": "AU",
+            "region": "NSW"
+        },
+        "profiles": [
+            {
+                "network": "Linkedin",
+                "username": "bipinpaulbedi",
+                "url": "www.linkedin.com/in/bipinpaulbedi"
+            },
+            {
+                "network": "Twitter",
+                "username": "bipinpaulbedi",
+                "url": "https://twitter.com/bipinpaulbedi"
+            },
+            {
+                "network": "Github",
+                "username": "bipinpaulbedi",
+                "url": "https://github.com/bipinpaulbedi"
+            },
+            {
+                "network": "Chrome",
+                "username": "Blog",
+                "url": "https://www.bipinpaulbedi.com"
+            }
+        ]
+    },
+    "work": [
+        {
+            "summary": "A full-service digital marketing agency.",
+            "website": "https://4mation.com.au",
+            "company": "4mation Technologies",
+            "name": "4mation Technologies",
+            "location": {
+                "city": "Sydney",
+                "countryCode": "AU",
+                "region": "NSW"
+            },
+            "position": "Solution Architect/Head Of Engineering",
+            "keywords": [
+                ".net Core",
+                "Azure",
+                "React",
+                "GraphQL",
+                "Entity Framework Core",
+                "React Native",
+                "Docker",
+                "Javascript",
+                "Sitefinity",
+                "Umbraco",
+                "Power BI",
+                "AWS",
+                "Elixir/Phoenix",
+                "Machine Learning / Python",
+                "Sharepoint",
+                "Angular"
+            ],
+            "startDate": "2017-03-20",
+            "highlights": [
+                "Represent the organization in customer-facing communication pertinent to the company’s technical expertise on the software platform including RFP's",
+                "Develop process and promote architectural best practices. Participate in architecture and design reviews for projects that require complex technical solutions",
+                "For package implementations, perform the gap analysis between business requirements and the package features, then design the configuration, customizations, extensions, interfaces needed to meet the requirements",
+                "Key stakeholder in hiring panel and corporate trainings"
+            ]
+        },
+        {
+            "summary": "Sitecore software consultancy.",
+            "website": "https://swissworx.com",
+            "company": "Swissworx Pty Ltd",
+            "name": "Swissworx Pty Ltd",
+            "location": {
+                "city": "Sydney",
+                "countryCode": "AU",
+                "region": "NSW"
+            },
+            "position": "Senior Developer",
+            "keywords": [
+                ".Net",
+                "Enterprise Library / ServiceStack",
+                "Entity Framework",
+                "Javascript",
+                "Azure",
+                "Sitecore",
+                "Angular",
+                "Node",
+                "Data warehouse"
+            ],
+            "startDate": "2016-03-07",
+            "endDate": "2017-03-17",
+            "highlights": [
+                "Customization and implementation of responsive Sitecore e-commerce portal",
+                "SCROM implementation over Entity framework and web API",
+                "Analysis and implementation of middle-tier API API solution that integrates with various enterprise systems such as Siebel, Data warehouse",
+                "Deployment and maintenance of Sitecore in the Azure platform"
+            ]
+        },
+        {
+            "summary": "Digital business transformation company.",
+            "website": "https://www.publicissapient.com",
+            "company": "Publicis Sapient",
+            "name": "Publicis Sapient",
+            "location": {
+                "city": "Gurgaon",
+                "countryCode": "IND",
+                "region": "Haryana"
+            },
+            "position": "Senior Associate",
+            "keywords": [
+                ".Net/C#/WCF",
+                "Openlink Solarc",
+                "T-SQL/MS SQL Server"
+            ],
+            "startDate": "2014-02-2014",
+            "endDate": "2016-02-05",
+            "highlights": [
+                "Play a Techno-functional role by understanding business requirements and validate with proof of concepts",
+                "Requirements gathering & elicitation (including both functional and non-functional) through the facilitation of workshops, interviews and meetings at levels up to and including Senior Management",
+                "Conduct training sessions for packages, products and best practices",
+                "Work as a Subject Matter Expert (SME) from business and solution standpoint which involves reviewing project architecture, design documents, providing best practices and standards",
+                "Technical reviews, strategy and helping the team in day to day technical or functional issues"
+            ]
+        },
+        {
+            "summary": "Intellectual property management and technology company.",
+            "website": "https://www.cpaglobal.com/",
+            "company": "CPA Global",
+            "name": "CPA Global",
+            "location": {
+                "city": "Gurgaon",
+                "countryCode": "IND",
+                "region": "Haryana"
+            },
+            "position": "Senior Software Engineer",
+            "keywords": [
+                ".Net/C#/WCF",
+                "Adobe/Flex",
+                "Action Script",
+                "RIA",
+                "Open Access ORM",
+                "PL-SQL"
+            ],
+            "startDate": "2012-10-15",
+            "endDate": "2014-02-07",
+            "highlights": [
+                "Diagnose & research solutions through technical expertise & problem solving-abilities",
+                "Mentor new hires and help them with critical customer problems",
+                "To conceptualize/implement an end-to-end professional solution for a given business problem"
+            ]
+        },
+        {
+            "summary": "Digital business transformation company.",
+            "website": "https://www.publicissapient.com",
+            "company": "Publicis Sapient",
+            "name": "Publicis Sapient",
+            "location": {
+                "city": "Gurgaon",
+                "countryCode": "IND",
+                "region": "Haryana"
+            },
+            "position": "Senior Associate Technology",
+            "keywords": [
+                "SSIS/SSRS",
+                "T-SQL/MS SQL Server",
+                ".Net/C#",
+                "Javascript/Jquery",
+                "SOA/Web Services",
+                "Data warehouse",
+                "Star/SnowFlake Schema"
+            ],
+            "startDate": "2009-12-07",
+            "endDate": "2012-10-05",
+            "highlights": [
+                "Finalizing technical standards and providing technical guidance to the team",
+                "Design, code, unit test and document application as per Client requirements",
+                "SSIS Package / SQL Scripts Development for data migration",
+                "Custom Reports and RDL’s development in SSRS"
+            ]
+        },
+        {
+            "summary": "FinTech company with a vision for reshaping the operating model of the global asset management industry.",
+            "website": "https://www.ivp.in/",
+            "company": "Indus Valley Partners",
+            "name": "Indus Valley Partners",
+            "location": {
+                "city": "Delhi",
+                "countryCode": "IND",
+                "region": "Delhi"
+            },
+            "position": "Software Engineer",
+            "keywords": [
+                ".Net/C#",
+                "Javascript/Jquery",
+                "XML/XSLT",
+                "HTML/CSS",
+                "T-SQL/MS SQL Server"
+            ],
+            "startDate": "2008-06-23",
+            "endDate": "2009-11-06",
+            "highlights": [
+                "Design and implementation of various technical modules",
+                "Designing and developing reusable components by utilizing various standard frameworks",
+                "Writing and maintaining program code with the unit tests to meet business requirements, system design and technical specifications following accredited standards"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Microsoft",
+            "position": "Microsoft Student Partner",
+            "url": "https://studentpartners.microsoft.com/en-us",
+            "startDate": "2007-07-01",
+            "endDate": "2008-05-30",
+            "summary": "On-campus leaders with a passion for making a difference, building vibrant communities, and sharing the latest tech with their peers",
+            "highlights": [
+                "Microsoft Imagine Cup 2008 - dancer/coordinator",
+                "Conference speaker - Tech evangelist"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Symbiosis Center For Distance Learning",
+            "area": "Finance",
+            "studyType": "Post Graduate Diploma/MBA",
+            "startDate": "2009-07-01",
+            "endDate": "2011-07-01",
+            "gpa": "66.02",
+            "courses": [
+                "Business Administration",
+                "Finance"
+            ]
+        },
+        {
+            "institution": "Guru Gobind Singh Indraprastha University",
+            "area": "Computer Science",
+            "studyType": "Bachelors of Technology",
+            "startDate": "2004-08-01",
+            "endDate": "2008-05-31",
+            "gpa": "81.72",
+            "courses": [
+                "Computer Science",
+                "Software Engineering",
+                "Information Technology"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Client Focused Delivery",
+            "date": "2010",
+            "awarder": "Sapient",
+            "summary": ""
+        },
+        {
+            "title": "Best Fresher of the year",
+            "date": "2008",
+            "awarder": "Indus Valley Partners",
+            "summary": ""
+        }
+    ],
+    "publications": [
+        {
+            "name": "Blog.v6",
+            "publisher": "www.bipinpaulbedi.com",
+            "releaseDate": "2018-01-01",
+            "url": "https://www.bipinpaulbedi.com",
+            "summary": "Personal Blog"
+        },
+        {
+            "name": "The Lost Butterfly",
+            "publisher": "Kindle Direct Publishing",
+            "releaseDate": "2013-09-05",
+            "url": "#",
+            "summary": "Fiction Novel"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Backend Development",
+            "level": "Master",
+            "keywords": [
+                ".net Core",
+                "T-SQL / MS SQL Server",
+                ".Net",
+                "EF / EF core",
+                "Rest API / SAS",
+                "SPA",
+                "OOPS",
+                "SOLID Principles",
+                "Design Patterns",
+                "No SQL",
+                "Microservices"
+            ]
+        },
+        {
+            "name": "Frontend Development",
+            "level": "Master",
+            "keywords": [
+                "React",
+                "Javascript",
+                "Redux",
+                "Thunk/Saga",
+                "Rx/js",
+                "Redux Observables"
+            ]
+        },
+        {
+            "name": "CMS/CXM",
+            "level": "Master",
+            "keywords": [
+                "Sitecore",
+                "Sitefinity",
+                "Umbraco"
+            ]
+        },
+        {
+            "name": "Cloud Arch. & Dev Ops",
+            "level": "Master",
+            "keywords": [
+                "Azure",
+                "Azure Dev ops",
+                "Bitbucket Pipelines",
+                "Docker",
+                "Continuous Delivery",
+                "Continuous Integration"
+            ]
+        },
+        {
+            "name": "Mobile Development",
+            "level": "Intermediate",
+            "keywords": [
+                "React Native",
+                "Xamarin"
+            ]
+        },
+        {
+            "name": "Business Intelligence",
+            "level": "Intermediate",
+            "keywords": [
+                "Power BI",
+                "SSIS/SSRS",
+                "Data warehouse"
+            ]
+        },
+        {
+            "name": "UI Development",
+            "level": "Intermediate",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "SASS"
+            ]
+        },
+        {
+            "name": "Practising",
+            "level": "Intermediate",
+            "keywords": [
+                "Angular",
+                "Mongo DB",
+                "Cosmos DB",
+                "Docker",
+                "AWS",
+                "GraphQL",
+                "NodeJs",
+                "Agile Principle and Practices"
+            ]
+        },
+        {
+            "name": "Learning",
+            "level": "Beginner",
+            "keywords": [
+                "Elixir",
+                "Machine Learning / AI",
+                "Python",
+                "F#",
+                "Kubernetes",
+                "pytorch/fastai",
+                "PHP",
+                "Rust",
+                "Go",
+                "Wordpress"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "Hindi",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "Punjabi",
+            "fluency": "fluent"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Technology",
+            "keywords": [
+                "Startups",
+                "FinTech",
+                "Blogging",
+                "Innovation"
+            ]
+        },
+        {
+            "name": "Books",
+            "keywords": [
+                "Biographies",
+                "Leadership",
+                "Business",
+                "Motivation",
+                "Science and Technologies"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Microsoft",
+            "reference": "Azure Certified Solution Architect - Azure 532, 533, 534"
+        },
+        {
+            "name": "Sitecore",
+            "reference": "Sitecore® XP 8 Website Development for .NET Developers Certification"
+        },
+        {
+            "name": "Amazon",
+            "reference": "AWS Certified Solution Architect - Professional"
+        },
+        {
+            "name": "Online Self Certification - Lynda, Udemy etc",
+            "reference": "Hadoop, Swift, MSBI, F#"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Open Source - Github",
+            "description": "Open source experimental projects",
+            "highlights": [
+                "Open source experimental projects",
+                "Sample application demonstrated in meetups and conference by me",
+                "Sample application demonstrated using corporate training"
+            ],
+            "keywords": [
+                "Node/express",
+                "Angular",
+                "Big data / Azure HdInsight",
+                "Firebase",
+                "Ionic",
+                "Meteor.js",
+                "Mongo DB",
+                "React",
+                "Gatsby.js",
+                "GraphQL"
+            ],
+            "startDate": "2014-03-17",
+            "endDate": "",
+            "url": "https://github.com/bipinpaulbedi",
+            "roles": [
+                "Developer",
+                "Speaker"
+            ],
+            "entity": "",
+            "type": ""
+        }
+    ],
+    "meta": {
+        "canonical": "https://gist.githubusercontent.com/bipinpaulbedi/2ece1c9886827f72534d611311cff8b3/raw/6bb54794e800400fd9f59134bac9bcf0c46c401c/resume.json",
+        "version": "v1.0.0",
+        "lastModified": "2020-02-15T00:00:00",
+        "theme": "stackoverflow"
+    }
+}

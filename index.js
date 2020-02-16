@@ -10,7 +10,7 @@ const { paragraphSplit } = require(join(HELPERS, 'paragraph-split.js'));
 const { toLowerCase } = require(join(HELPERS, 'to-lower-case.js'));
 const { spaceToDash } = require(join(HELPERS, 'space-to-dash.js'));
 
-const { MY, Y, DMY } = dateHelpers;
+const { MY, Y, DMY, DIFF } = dateHelpers;
 
 Handlebars.registerHelper('birthDate', birthDate);
 Handlebars.registerHelper('paragraphSplit', paragraphSplit);
@@ -19,6 +19,7 @@ Handlebars.registerHelper('toLowerCase', toLowerCase);
 Handlebars.registerHelper('MY', MY);
 Handlebars.registerHelper('Y', Y);
 Handlebars.registerHelper('DMY', DMY);
+Handlebars.registerHelper('DATEDIFF', DIFF);
 
 function render(resume) {
   const css = readFileSync(`${__dirname}/style.css`, 'utf-8');

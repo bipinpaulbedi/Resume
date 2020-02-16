@@ -1,0 +1,1667 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Bipin Paul Bedi</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+    integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <style>
+    /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  color: #40484f;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46153846;
+  text-align: left;
+  -webkit-text-size-adjust: 100%;
+}
+
+p {
+  display: block;
+}
+
+a {
+  color: #0095ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0c65a5;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.67rem;
+}
+
+h3 {
+  font-size: 1.27rem;
+}
+
+em {
+  color: #757575;
+}
+
+blockquote {
+  margin-bottom: 1em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* main container */
+
+#resume {
+  padding: 1.5rem;
+}
+
+/* every section wrapper */
+
+.section {
+  margin-bottom: 1rem;
+}
+
+section .location {
+  margin-right: 0.5em;
+  color: #606d76;
+  font-weight: 700;
+}
+
+#contact {
+  margin-top: 0.5rem;
+}
+
+#profiles .item {
+  padding: 0;
+}
+
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+#header > div {
+  line-height: 1.5;
+}
+
+#header > div > div {
+  margin-right: 1.2em;
+}
+
+#header h1.name {
+  font-size: 2.8rem;
+  font-weight: 100;
+  line-height: 100%;
+}
+
+#header h2.label {
+  color: #202931;
+  font-size: 1.47rem;
+  font-weight: 300;
+}
+
+#header .image {
+  width: 11em;
+  float: right;
+  border-radius: 4px;
+}
+
+.main-summary {
+  background: #f1f8ff;
+  padding: 1.2em 1em;
+  margin-top: 1rem;
+}
+
+.main-summary p {
+  margin: 0;
+}
+
+.section-title {
+  display: inline-block;
+  background: #fff;
+  padding: 0 1em 0.3em 0;
+  color: #ff6d1f;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.section > header {
+  position: relative;
+}
+
+.fa {
+  margin-right: 0.25em;
+}
+
+.section > header::after {
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  height: 1px;
+  background: #ccc;
+  content: "";
+  width: 100%;
+  z-index: -100;
+  display: block;
+}
+
+.section.main-summary > section {
+  margin: 0;
+}
+
+.section > section > header {
+  font-size: 1.38rem;
+  position: relative;
+  margin-top: 0.7em;
+}
+
+.section > section > header:first-of-type {
+  margin: 0;
+}
+
+.section > section > header .space-left {
+  position: absolute;
+  left: -1.56rem;
+  top: 5px;
+  color: #aaa;
+  line-height: 1;
+  opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+  display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+  font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+  content: "at ";
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+  color: #606d76;
+  font-weight: 400;
+}
+
+.section header .date {
+  display: block;
+  font-size: 1rem;
+  padding: 0.1em 0;
+  color: #606d76;
+  font-weight: 400;
+}
+
+.keywords,
+.courses {
+  margin: 0.5em 0;
+}
+
+.keywords li,
+.courses li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.keywords li:hover,
+.courses li:hover {
+  background: #dfeaf0;
+}
+
+.highlights {
+  margin: 1em 0 0 0;
+}
+
+.highlights > li > p {
+  margin-bottom: 0.5em;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.gpa {
+  clear: both;
+  padding-bottom: 0.5em;
+}
+
+.fa.social {
+  font-size: 1.1em;
+}
+
+/* Social Media Brand Colors */
+
+.google-plus {
+  color: #dd4b39;
+}
+
+.tumblr {
+  color: #32506d;
+}
+
+.foursquare {
+  color: #0072b1;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.pinterest {
+  color: #cb2027;
+}
+
+.dribbble {
+  color: #ea4c89;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.soundcloud {
+  color: #ff3a00;
+}
+
+.wordpress {
+  color: #21759b;
+}
+
+.youtube {
+  color: #bb0000;
+}
+
+.github {
+  color: #171515;
+}
+
+.stack-overflow {
+  color: #828386;
+  position: relative;
+}
+
+.flickr {
+  color: #ff0084;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.hacker-news {
+  color: #ff6600;
+}
+
+.stack-overflow::after {
+  position: absolute;
+  left: 0;
+  content: "\f16c";
+  color: #f68a1f;
+  overflow: hidden;
+  height: 100%;
+}
+
+.telegram {
+  color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+  width: 15em;
+  padding: 0 0.5em 0.5em 0;
+  border-bottom: none;
+}
+
+#skills .item {
+  width: 16em;
+}
+
+#skills .item .keywords {
+  width: 15em;
+}
+
+/* Skill chart */
+
+.level {
+  margin-bottom: 0.5em;
+}
+
+.level em {
+  padding-left: 0.2em;
+}
+
+.level .bar {
+  border: 1px solid #ddd;
+  display: block;
+  width: 10em;
+  height: 5px;
+  position: relative;
+}
+
+.level .bar::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: black;
+  height: 5px;
+}
+
+.level.beginner .bar::after {
+  background: #eb5f51;
+  width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+  background: #ffdf1f;
+  width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+  background: #5cb85c;
+  width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+  background: #59c596;
+  width: 10em;
+}
+
+#references .item {
+  padding-left: 0.5em;
+  border-left: 5px solid #ff6d1f;
+}
+
+.toggle-item {
+  display: none;
+}
+
+.section > section > section {
+  margin-bottom: 0.5rem;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.display {
+  display: block;
+  opacity: 1 !important;
+}
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+  #resume {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section header .date {
+    float: right;
+    font-weight: 600;
+    color: #000;
+  }
+}
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+  li {
+    margin-left: 1.5em;
+  }
+  #resume {
+    width: 820px;
+    margin: 2rem auto;
+  }
+  .section > section > header .space-left {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .section > section:not(.main-summary) {
+    margin-left: 1.67rem;
+  }
+  .toggle-item {
+    transform: translate(-9999px);
+  }
+  .toggle-item + label {
+    display: block;
+  }
+  .toggle-item:checked + label:after {
+    content: "\f0d7";
+  }
+  .toggle-item + label:after {
+    float: left;
+    cursor: pointer;
+    margin-left: -20px;
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f0da";
+  }
+  .toggle-item ~ .item {
+    height: 0;
+    opacity: 0;
+  }
+  .toggle-item:checked ~ .item {
+    height: auto;
+    opacity: 1;
+    transition: all 0.5s linear;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "| ";
+  }
+  .header-left {
+    float: left;
+    width: 70%;
+    word-break: normal;
+  }
+  .section header .date {
+    padding: 0.2em;
+  }
+  .display {
+    display: none;
+  }
+  .display:not(.none) {
+    display: block;
+  }
+}
+
+@media print {
+  #resume {
+    margin: 0.1em;
+    padding: 0.1em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  @page {
+    margin: 1cm 1.4cm;
+  }
+  .item-count {
+    display: none;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "at ";
+  }
+  .main-summary {
+    padding: 0;
+    background: transparent;
+  }
+  .section {
+    margin: 0.8rem 0;
+    padding: 0;
+  }
+  .section header {
+    padding-bottom: 0.15rem;
+  }
+  .section .location {
+    padding-bottom: 0.15rem;
+  }
+  .section > section > section {
+    margin: 0 0 1em 0;
+  }
+  .section > section > section:last-of-type {
+    margin: 0;
+  }
+  .stack-overflow::after {
+    content: "";
+  }
+  .fa.social {
+    color: #828386;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  ul.keywords li,
+  ul.courses li {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+  ul.keywords li::after,
+  ul.courses li::after {
+    padding: 0 0 0 0.1rem;
+    content: " |";
+  }
+  ul.keywords::before,
+  ul.courses::before {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  #skills .item {
+    width: calc(100% / 3);
+    padding: 0;
+  }
+  .highlights {
+    margin: 0.5em 0 0 0;
+  }
+  ul.keywords::before {
+    content: "Skills acquired: ";
+  }
+  #skills .keywords::before {
+    content: none;
+  }
+  .section p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.courses::before {
+    content: "Major courses: ";
+  }
+  ul.keywords li:last-of-type::after,
+  ul.courses li:last-of-type::after {
+    content: "";
+  }
+  .level em {
+    font-style: normal;
+    padding: 0.1em 0;
+  }
+  /* .level .bar {
+    display: none;
+  } */
+  #profiles .item {
+    padding: 0;
+  }
+  .item.display {
+    display: block;
+    opacity: 1 !important;
+  }
+  .fa-map-marker-alt:before {
+    padding-left: 0.1em;
+  }
+}
+
+  </style>
+
+</head>
+
+<body>
+
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<div>
+    			<h1 class="name">Bipin Paul Bedi</h1>
+    			<h2 class="label">Azure Certified | AWS Certified | Sitecore Certified | React Expert | Microsoft Stack Architect</h2>
+    		</div>
+    
+    		<span class="location">
+    			<span class="address">318/2 Meredith Avenue,</span>
+    			<span class="postalCode">2138,</span>
+    			<span class="city">Rhodes,</span>
+    			<span class="region">NSW</span>
+    			<span class="countryCode">AU</span>
+    		</span>
+    
+    
+    		<div id="contact">
+    			<div class="email">
+    				<span class="far fa-envelope"></span>
+    				<a href="mailto:bipinpaulbedi@gmail.com">bipinpaulbedi@gmail.com</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fas fa-mobile-alt"></span>
+    				<a href="tel:+61 404 13 5259">+61 404 13 5259</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="www.linkedin.com/in/bipinpaulbedi">bipinpaulbedi</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-twitter twitter social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://twitter.com/bipinpaulbedi">bipinpaulbedi</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/bipinpaulbedi">bipinpaulbedi</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-chrome chrome social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.bipinpaulbedi.com">Blog</a>
+    					</span>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section">
+    		<section class="main-summary">
+    			<div><p>Techno-functional business consultant with 12+ years of experience in providing web/mobile technology solutions in open source & Microsoft technologies. Strong experience in business analysis, designing and developing solutions for Digital Marketing Platforms by converting business requirements into functional and technical design specifications and implementation from end to end, with expertise in Sitecore, Sitefinity & Umbraco. Experience in pre-sales activities like responding to RFPs, CMS/CXM package evaluation. Proven track record in MSBI, i.e. Power BI, SSIS, SSRS etc</p></div>
+    		</section>
+    	</section>
+    
+    <section class="section">
+    	<header>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Backend Development
+    			</h3>
+    			 
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>.net Core</li>
+    				<li>T-SQL / MS SQL Server</li>
+    				<li>.Net</li>
+    				<li>EF / EF core</li>
+    				<li>Rest API / SAS</li>
+    				<li>SPA</li>
+    				<li>OOPS</li>
+    				<li>SOLID Principles</li>
+    				<li>Design Patterns</li>
+    				<li>No SQL</li>
+    				<li>Microservices</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Frontend Development
+    			</h3>
+    			 
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>React</li>
+    				<li>Javascript</li>
+    				<li>Redux</li>
+    				<li>Thunk/Saga</li>
+    				<li>Rx/js</li>
+    				<li>Redux Observables</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				CMS/CXM
+    			</h3>
+    			 
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Sitecore</li>
+    				<li>Sitefinity</li>
+    				<li>Umbraco</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Cloud Arch. &amp; Dev Ops
+    			</h3>
+    			 
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Azure</li>
+    				<li>Azure Dev ops</li>
+    				<li>Bitbucket Pipelines</li>
+    				<li>Docker</li>
+    				<li>Continuous Delivery</li>
+    				<li>Continuous Integration</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Mobile Development
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>Intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>React Native</li>
+    				<li>Xamarin</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Business Intelligence
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>Intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Power BI</li>
+    				<li>SSIS/SSRS</li>
+    				<li>Data warehouse</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				UI Development
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>Intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>HTML</li>
+    				<li>CSS</li>
+    				<li>SASS</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Practising
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>Intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Angular</li>
+    				<li>Mongo DB</li>
+    				<li>Cosmos DB</li>
+    				<li>Docker</li>
+    				<li>AWS</li>
+    				<li>GraphQL</li>
+    				<li>NodeJs</li>
+    				<li>Agile Principle and Practices</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Learning
+    			</h3>
+    			 
+    			<div class="level beginner">
+    				<em>Beginner</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Elixir</li>
+    				<li>Machine Learning / AI</li>
+    				<li>Python</li>
+    				<li>F#</li>
+    				<li>Kubernetes</li>
+    				<li>pytorch/fastai</li>
+    				<li>PHP</li>
+    				<li>Rust</li>
+    				<li>Go</li>
+    				<li>Wordpress</li>
+    			</ul>
+    		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Certifications</h2>
+      </header>
+      <section id="references">
+        <div class="item">
+          <div class="name">
+            Microsoft
+          </div>
+          <blockquote class="reference">
+            &#8220;&#32;Azure Certified Solution Architect - Azure 532, 533, 534&#32;&#8221;
+          </blockquote>
+        </div>
+        <div class="item">
+          <div class="name">
+            Sitecore
+          </div>
+          <blockquote class="reference">
+            &#8220;&#32;Sitecore® XP 8 Website Development for .NET Developers Certification&#32;&#8221;
+          </blockquote>
+        </div>
+        <div class="item">
+          <div class="name">
+            Amazon
+          </div>
+          <blockquote class="reference">
+            &#8220;&#32;AWS Certified Solution Architect - Professional&#32;&#8221;
+          </blockquote>
+        </div>
+        <div class="item">
+          <div class="name">
+            Online Self Certification - Lynda, Udemy etc
+          </div>
+          <blockquote class="reference">
+            &#8220;&#32;Hadoop, Swift, MSBI, F#&#32;&#8221;
+          </blockquote>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+    	<header>
+    		<h2 class='section-title'>Work Experience <span class="item-count">(6)</span></h2>
+    	</header>
+    
+    	<section id="work">
+    		<section class="work-item">
+    
+    			<input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
+    			<label for="work-item-0"></label>
+    
+    			<header class="clear">
+    				<div class="position">Solution Architect/Head Of Engineering</div>
+    				<div class="company">4mation Technologies</div>
+    				<div class="date">
+    					<span class="startDate">Mar 2017</span>
+    					<span class="endDate">- Current</span> | 3+ yrs 
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span class="city">Sydney,</span>
+    				<span class="countryCode">(AU)</span>
+    				<span class="region">NSW</span>
+    			</span>
+    			<span class="website">
+    				<a target="_blank" href="https://4mation.com.au">https://4mation.com.au</a>
+    			</span>  
+    			<ul class="keywords">
+    				<li>.net Core</li>
+    				<li>Azure</li>
+    				<li>React</li>
+    				<li>GraphQL</li>
+    				<li>Entity Framework Core</li>
+    				<li>React Native</li>
+    				<li>Docker</li>
+    				<li>Javascript</li>
+    				<li>Sitefinity</li>
+    				<li>Umbraco</li>
+    				<li>Power BI</li>
+    				<li>AWS</li>
+    				<li>Elixir/Phoenix</li>
+    				<li>Machine Learning / Python</li>
+    				<li>Sharepoint</li>
+    				<li>Angular</li>
+    			</ul>
+    			<div class="item" id="work-item">
+    				<div class="summary"><p>A full-service digital marketing agency.</p></div>
+    				<ul class="highlights">
+    					<li><p>Represent the organization in customer-facing communication pertinent to the company’s technical expertise on the software platform including RFP's</p></li>
+    					<li><p>Develop process and promote architectural best practices. Participate in architecture and design reviews for projects that require complex technical solutions</p></li>
+    					<li><p>For package implementations, perform the gap analysis between business requirements and the package features, then design the configuration, customizations, extensions, interfaces needed to meet the requirements</p></li>
+    					<li><p>Key stakeholder in hiring panel and corporate trainings</p></li>
+    				</ul>
+    			</div>
+    		</section>
+    		<section class="work-item">
+    
+    			<input id="work-item-1" type="checkbox" class="toggle-item" />
+    			<label for="work-item-1"></label>
+    
+    			<header class="clear">
+    				<div class="position">Senior Developer</div>
+    				<div class="company">Swissworx Pty Ltd</div>
+    				<div class="date">
+    					<span class="startDate">Mar 2016</span>
+    					<span class="endDate">- Mar 2017</span> | 1 yr 1 mo 
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span class="city">Sydney,</span>
+    				<span class="countryCode">(AU)</span>
+    				<span class="region">NSW</span>
+    			</span>
+    			<span class="website">
+    				<a target="_blank" href="https://swissworx.com">https://swissworx.com</a>
+    			</span>  
+    			<ul class="keywords">
+    				<li>.Net</li>
+    				<li>Enterprise Library / ServiceStack</li>
+    				<li>Entity Framework</li>
+    				<li>Javascript</li>
+    				<li>Azure</li>
+    				<li>Sitecore</li>
+    				<li>Angular</li>
+    				<li>Node</li>
+    				<li>Data warehouse</li>
+    			</ul>
+    			<div class="item" id="work-item">
+    				<div class="summary"><p>Sitecore software consultancy.</p></div>
+    				<ul class="highlights">
+    					<li><p>Customization and implementation of responsive Sitecore e-commerce portal</p></li>
+    					<li><p>SCROM implementation over Entity framework and web API</p></li>
+    					<li><p>Analysis and implementation of middle-tier API API solution that integrates with various enterprise systems such as Siebel, Data warehouse</p></li>
+    					<li><p>Deployment and maintenance of Sitecore in the Azure platform</p></li>
+    				</ul>
+    			</div>
+    		</section>
+    		<section class="work-item">
+    
+    			<input id="work-item-2" type="checkbox" class="toggle-item" />
+    			<label for="work-item-2"></label>
+    
+    			<header class="clear">
+    				<div class="position">Senior Associate</div>
+    				<div class="company">Publicis Sapient</div>
+    				<div class="date">
+    					<span class="startDate">Feb 2014</span>
+    					<span class="endDate">- Feb 2016</span> | 2 yrs 1 mo 
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span class="city">Gurgaon,</span>
+    				<span class="countryCode">(IND)</span>
+    				<span class="region">Haryana</span>
+    			</span>
+    			<span class="website">
+    				<a target="_blank" href="https://www.publicissapient.com">https://www.publicissapient.com</a>
+    			</span>  
+    			<ul class="keywords">
+    				<li>.Net/C#/WCF</li>
+    				<li>Openlink Solarc</li>
+    				<li>T-SQL/MS SQL Server</li>
+    			</ul>
+    			<div class="item" id="work-item">
+    				<div class="summary"><p>Digital business transformation company.</p></div>
+    				<ul class="highlights">
+    					<li><p>Play a Techno-functional role by understanding business requirements and validate with proof of concepts</p></li>
+    					<li><p>Requirements gathering & elicitation (including both functional and non-functional) through the facilitation of workshops, interviews and meetings at levels up to and including Senior Management</p></li>
+    					<li><p>Conduct training sessions for packages, products and best practices</p></li>
+    					<li><p>Work as a Subject Matter Expert (SME) from business and solution standpoint which involves reviewing project architecture, design documents, providing best practices and standards</p></li>
+    					<li><p>Technical reviews, strategy and helping the team in day to day technical or functional issues</p></li>
+    				</ul>
+    			</div>
+    		</section>
+    		<section class="work-item">
+    
+    			<input id="work-item-3" type="checkbox" class="toggle-item" />
+    			<label for="work-item-3"></label>
+    
+    			<header class="clear">
+    				<div class="position">Senior Software Engineer</div>
+    				<div class="company">CPA Global</div>
+    				<div class="date">
+    					<span class="startDate">Oct 2012</span>
+    					<span class="endDate">- Feb 2014</span> | 1 yr 5 mos 
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span class="city">Gurgaon,</span>
+    				<span class="countryCode">(IND)</span>
+    				<span class="region">Haryana</span>
+    			</span>
+    			<span class="website">
+    				<a target="_blank" href="https://www.cpaglobal.com/">https://www.cpaglobal.com/</a>
+    			</span>  
+    			<ul class="keywords">
+    				<li>.Net/C#/WCF</li>
+    				<li>Adobe/Flex</li>
+    				<li>Action Script</li>
+    				<li>RIA</li>
+    				<li>Open Access ORM</li>
+    				<li>PL-SQL</li>
+    			</ul>
+    			<div class="item" id="work-item">
+    				<div class="summary"><p>Intellectual property management and technology company.</p></div>
+    				<ul class="highlights">
+    					<li><p>Diagnose & research solutions through technical expertise & problem solving-abilities</p></li>
+    					<li><p>Mentor new hires and help them with critical customer problems</p></li>
+    					<li><p>To conceptualize/implement an end-to-end professional solution for a given business problem</p></li>
+    				</ul>
+    			</div>
+    		</section>
+    		<section class="work-item">
+    
+    			<input id="work-item-4" type="checkbox" class="toggle-item" />
+    			<label for="work-item-4"></label>
+    
+    			<header class="clear">
+    				<div class="position">Senior Associate Technology</div>
+    				<div class="company">Publicis Sapient</div>
+    				<div class="date">
+    					<span class="startDate">Dec 2009</span>
+    					<span class="endDate">- Oct 2012</span> | 2 yrs 11 mos 
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span class="city">Gurgaon,</span>
+    				<span class="countryCode">(IND)</span>
+    				<span class="region">Haryana</span>
+    			</span>
+    			<span class="website">
+    				<a target="_blank" href="https://www.publicissapient.com">https://www.publicissapient.com</a>
+    			</span>  
+    			<ul class="keywords">
+    				<li>SSIS/SSRS</li>
+    				<li>T-SQL/MS SQL Server</li>
+    				<li>.Net/C#</li>
+    				<li>Javascript/Jquery</li>
+    				<li>SOA/Web Services</li>
+    				<li>Data warehouse</li>
+    				<li>Star/SnowFlake Schema</li>
+    			</ul>
+    			<div class="item" id="work-item">
+    				<div class="summary"><p>Digital business transformation company.</p></div>
+    				<ul class="highlights">
+    					<li><p>Finalizing technical standards and providing technical guidance to the team</p></li>
+    					<li><p>Design, code, unit test and document application as per Client requirements</p></li>
+    					<li><p>SSIS Package / SQL Scripts Development for data migration</p></li>
+    					<li><p>Custom Reports and RDL’s development in SSRS</p></li>
+    				</ul>
+    			</div>
+    		</section>
+    		<section class="work-item">
+    
+    			<input id="work-item-5" type="checkbox" class="toggle-item" />
+    			<label for="work-item-5"></label>
+    
+    			<header class="clear">
+    				<div class="position">Software Engineer</div>
+    				<div class="company">Indus Valley Partners</div>
+    				<div class="date">
+    					<span class="startDate">Jun 2008</span>
+    					<span class="endDate">- Nov 2009</span> | 1 yr 6 mos 
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span class="city">Delhi,</span>
+    				<span class="countryCode">(IND)</span>
+    				<span class="region">Delhi</span>
+    			</span>
+    			<span class="website">
+    				<a target="_blank" href="https://www.ivp.in/">https://www.ivp.in/</a>
+    			</span>  
+    			<ul class="keywords">
+    				<li>.Net/C#</li>
+    				<li>Javascript/Jquery</li>
+    				<li>XML/XSLT</li>
+    				<li>HTML/CSS</li>
+    				<li>T-SQL/MS SQL Server</li>
+    			</ul>
+    			<div class="item" id="work-item">
+    				<div class="summary"><p>FinTech company with a vision for reshaping the operating model of the global asset management industry.</p></div>
+    				<ul class="highlights">
+    					<li><p>Design and implementation of various technical modules</p></li>
+    					<li><p>Designing and developing reusable components by utilizing various standard frameworks</p></li>
+    					<li><p>Writing and maintaining program code with the unit tests to meet business requirements, system design and technical specifications following accredited standards</p></li>
+    				</ul>
+    			</div>
+    		</section>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Projects <span class="item-count">(1)</span></h2>
+      </header>
+      <section id="projects">
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">Open Source - Github</div>
+            <div class="date">
+              <span class="startDate">Mar 2014</span>
+              <span class="endDate">- Current</span>
+            </div>
+          </header>
+          <span class="website">
+            <a target="_blank" href="https://github.com/bipinpaulbedi">https://github.com/bipinpaulbedi</a>
+          </span>
+          <ul class="keywords">
+              <li>Node/express</li>
+              <li>Angular</li>
+              <li>Big data / Azure HdInsight</li>
+              <li>Firebase</li>
+              <li>Ionic</li>
+              <li>Meteor.js</li>
+              <li>Mongo DB</li>
+              <li>React</li>
+              <li>Gatsby.js</li>
+              <li>GraphQL</li>
+          </ul>
+          <div class="item">
+            <ul class="highlights">
+                <li><p>Open source experimental projects</p></li>
+                <li><p>Sample application demonstrated in meetups and conference by me</p></li>
+                <li><p>Sample application demonstrated using corporate training</p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Volunteer</h2>
+      </header>
+      <section id="volunteer">
+        <section class="volunteer-item">
+    
+            <input id="volunteer-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="volunteer-item-0"></label>
+    
+          <header class="clear">
+            <div class="header-left">
+              <div class="position">
+                Microsoft Student Partner
+              </div>
+              <div class="organization">
+                Microsoft
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              Jul 2007
+              </span>
+              <span class="endDate">
+              - May 2008
+              </span>
+            </div>
+          </header>
+          <div class="item">
+              <div class="summary"><p>On-campus leaders with a passion for making a difference, building vibrant communities, and sharing the latest tech with their peers</p></div>
+            <ul class="highlights">
+              <li><p>Microsoft Imagine Cup 2008 - dancer/coordinator</p></li>
+              <li><p>Conference speaker - Tech evangelist</p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(2)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="studyType">
+                Post Graduate Diploma/MBA
+              </div>
+              <div class="area">
+                Finance
+              </div>
+              <div class="institution">
+                Symbiosis Center For Distance Learning
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2009
+              </span>
+              <span class="endDate">
+              - 2011
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>Business Administration</li>
+            <li>Finance</li>
+          </ul>
+    
+          <div class="item">
+            <div class='gpa'>
+              <strong> Grade:</strong> <span>66.02</span>
+            </div>
+          </div>
+        </section>
+        <section class="education-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="studyType">
+                Bachelors of Technology
+              </div>
+              <div class="area">
+                Computer Science
+              </div>
+              <div class="institution">
+                Guru Gobind Singh Indraprastha University
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2004
+              </span>
+              <span class="endDate">
+              - 2008
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>Computer Science</li>
+            <li>Software Engineering</li>
+            <li>Information Technology</li>
+          </ul>
+    
+          <div class="item">
+            <div class='gpa'>
+              <strong> Grade:</strong> <span>81.72</span>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Awards</h2>
+      </header>
+      <section id="awards">
+        <section class="award-item">
+    
+          <header class="clear">
+            <div class="header-left">
+              <div class="title">
+                Client Focused Delivery
+              </div>
+              <div class="awarder">
+                Sapient
+              </div>
+            </div>
+            <div class="date">
+              2010
+            </div>
+          </header>
+          
+          <div class="item">
+          </div>
+        </section>
+        <section class="award-item">
+    
+          <header class="clear">
+            <div class="header-left">
+              <div class="title">
+                Best Fresher of the year
+              </div>
+              <div class="awarder">
+                Indus Valley Partners
+              </div>
+            </div>
+            <div class="date">
+              2008
+            </div>
+          </header>
+          
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Publications</h2>
+      </header>
+      <section id="publications">
+        <section class="publication-item">
+            <input id="publication-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="publication-item-0"></label>
+    
+          <header class="clear">
+            <div class="header-left">
+              <span class="name">
+              Blog.v6
+              </span>
+              <span class="publisher">
+              in www.bipinpaulbedi.com
+              </span>
+            </div>
+            <span class="date">
+            1 Jan 2018
+            </span>
+          </header>
+    
+          <div class="item">  
+              <div class="summary"><p>Personal Blog</p></div>
+          </div>
+        </section>
+        <section class="publication-item">
+            <input id="publication-item-1" type="checkbox" class="toggle-item" />
+            <label for="publication-item-1"></label>
+    
+          <header class="clear">
+            <div class="header-left">
+              <span class="name">
+              The Lost Butterfly
+              </span>
+              <span class="publisher">
+              in Kindle Direct Publishing
+              </span>
+            </div>
+            <span class="date">
+            5 Sep 2013
+            </span>
+          </header>
+    
+          <div class="item">  
+              <div class="summary"><p>Fiction Novel</p></div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            English
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            Hindi
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            Punjabi
+          </h3>
+          <div class="item">
+            <div class="level fluency fluent">
+              <em>fluent</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title' class='section-title'>Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Technology
+          </h3>
+          <ul class="keywords">
+            <li>Startups</li>
+            <li>FinTech</li>
+            <li>Blogging</li>
+            <li>Innovation</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Books
+          </h3>
+          <ul class="keywords">
+            <li>Biographies</li>
+            <li>Leadership</li>
+            <li>Business</li>
+            <li>Motivation</li>
+            <li>Science and Technologies</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+</body>
+
+</html>

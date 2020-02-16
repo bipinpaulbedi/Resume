@@ -771,9 +771,9 @@ section .location {
     font-style: normal;
     padding: 0.1em 0;
   }
-  .level .bar {
+  /* .level .bar {
     display: none;
-  }
+  } */
   #profiles .item {
     padding: 0;
   }
