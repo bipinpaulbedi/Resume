@@ -548,8 +548,8 @@ section .location {
   height: 5px;
 }
 
-.level.beginner .bar::after {
-  background: #eb5f51;
+.level.evaluator .bar::after {
+  background: #36393D;
   width: 2.5em;
 }
 
@@ -763,6 +763,9 @@ section .location {
   ul.keywords::before {
     content: "Skills acquired: ";
   }
+  ul.keywords.not-acquired::before {
+    content: "Areas: ";
+  }
   #skills .keywords::before {
     content: none;
   }
@@ -878,7 +881,7 @@ section .location {
     	<section id="skills">
     		<div class="item">
     			<h3 class="name">
-    				Backend Development
+    				Backend Dev. &amp; Arch.
     			</h3>
     			 
     			<div class="level master">
@@ -902,7 +905,7 @@ section .location {
     		</div>
     		<div class="item">
     			<h3 class="name">
-    				Frontend Development
+    				Frontend Dev. &amp; Arch.
     			</h3>
     			 
     			<div class="level master">
@@ -912,6 +915,7 @@ section .location {
     			<ul class="keywords">
     				<li>React</li>
     				<li>Javascript</li>
+    				<li>Angular</li>
     				<li>Redux</li>
     				<li>Thunk/Saga</li>
     				<li>Rx/js</li>
@@ -953,7 +957,7 @@ section .location {
     		</div>
     		<div class="item">
     			<h3 class="name">
-    				Mobile Development
+    				Mobile Dev. &amp; Arch.
     			</h3>
     			 
     			<div class="level intermediate">
@@ -978,11 +982,12 @@ section .location {
     				<li>Power BI</li>
     				<li>SSIS/SSRS</li>
     				<li>Data warehouse</li>
+    				<li>Data Science</li>
     			</ul>
     		</div>
     		<div class="item">
     			<h3 class="name">
-    				UI Development
+    				UI Dev.
     			</h3>
     			 
     			<div class="level intermediate">
@@ -1005,7 +1010,6 @@ section .location {
     				<div class="bar"></div>
     			</div>
     			<ul class="keywords">
-    				<li>Angular</li>
     				<li>Mongo DB</li>
     				<li>Cosmos DB</li>
     				<li>Docker</li>
@@ -1018,11 +1022,11 @@ section .location {
     		</div>
     		<div class="item">
     			<h3 class="name">
-    				Learning
+    				Experimenting
     			</h3>
     			 
-    			<div class="level beginner">
-    				<em>Beginner</em>
+    			<div class="level evaluator">
+    				<em>Evaluator</em>
     				<div class="bar"></div>
     			</div>
     			<ul class="keywords">
@@ -1032,10 +1036,8 @@ section .location {
     				<li>F#</li>
     				<li>Kubernetes</li>
     				<li>pytorch/fastai</li>
-    				<li>PHP</li>
     				<li>Rust</li>
     				<li>Go</li>
-    				<li>Wordpress</li>
     			</ul>
     		</div>
     	</section>
@@ -1095,7 +1097,7 @@ section .location {
     				<div class="company">4mation Technologies</div>
     				<div class="date">
     					<span class="startDate">Mar 2017</span>
-    					<span class="endDate">- Current</span> | 3+ yrs 
+    					<span class="endDate">- Current</span> | 3+ yrs 1 mo 
     				</div>
     			</header>
     
@@ -1129,6 +1131,7 @@ section .location {
     			<div class="item" id="work-item">
     				<div class="summary"><p>A full-service digital marketing agency.</p></div>
     				<ul class="highlights">
+    					<li><p>Hands on delivery of clients projects</p></li>
     					<li><p>Represent the organization in customer-facing communication pertinent to the company’s technical expertise on the software platform including RFP's</p></li>
     					<li><p>Develop process and promote architectural best practices. Participate in architecture and design reviews for projects that require complex technical solutions</p></li>
     					<li><p>For package implementations, perform the gap analysis between business requirements and the package features, then design the configuration, customizations, extensions, interfaces needed to meet the requirements</p></li>
@@ -1643,7 +1646,7 @@ section .location {
           <h3 class="name">
             Technology
           </h3>
-          <ul class="keywords">
+          <ul class="keywords not-acquired">
             <li>Startups</li>
             <li>FinTech</li>
             <li>Blogging</li>
@@ -1654,7 +1657,7 @@ section .location {
           <h3 class="name">
             Books
           </h3>
-          <ul class="keywords">
+          <ul class="keywords not-acquired">
             <li>Biographies</li>
             <li>Leadership</li>
             <li>Business</li>

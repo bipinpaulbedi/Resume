@@ -538,8 +538,8 @@ section .location {
   height: 5px;
 }
 
-.level.beginner .bar::after {
-  background: #eb5f51;
+.level.evaluator .bar::after {
+  background: #36393D;
   width: 2.5em;
 }
 
@@ -752,6 +752,9 @@ section .location {
   }
   ul.keywords::before {
     content: "Skills acquired: ";
+  }
+  ul.keywords.not-acquired::before {
+    content: "Areas: ";
   }
   #skills .keywords::before {
     content: none;

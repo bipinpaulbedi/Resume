@@ -69,6 +69,7 @@
             ],
             "startDate": "2017-03-20",
             "highlights": [
+                "Hands on delivery of clients projects",
                 "Represent the organization in customer-facing communication pertinent to the company’s technical expertise on the software platform including RFP's",
                 "Develop process and promote architectural best practices. Participate in architecture and design reviews for projects that require complex technical solutions",
                 "For package implementations, perform the gap analysis between business requirements and the package features, then design the configuration, customizations, extensions, interfaces needed to meet the requirements",
@@ -288,7 +289,7 @@
     ],
     "skills": [
         {
-            "name": "Backend Development",
+            "name": "Backend Dev. & Arch.",
             "level": "Master",
             "keywords": [
                 ".net Core",
@@ -306,11 +307,12 @@
             ]
         },
         {
-            "name": "Frontend Development",
+            "name": "Frontend Dev. & Arch.",
             "level": "Master",
             "keywords": [
                 "React",
                 "Javascript",
+                "Angular",
                 "Redux",
                 "Thunk/Saga",
                 "Rx/js",
@@ -339,7 +341,7 @@
             ]
         },
         {
-            "name": "Mobile Development",
+            "name": "Mobile Dev. & Arch.",
             "level": "Intermediate",
             "keywords": [
                 "React Native",
@@ -352,11 +354,12 @@
             "keywords": [
                 "Power BI",
                 "SSIS/SSRS",
-                "Data warehouse"
+                "Data warehouse",
+                "Data Science"
             ]
         },
         {
-            "name": "UI Development",
+            "name": "UI Dev.",
             "level": "Intermediate",
             "keywords": [
                 "HTML",
@@ -368,7 +371,6 @@
             "name": "Practising",
             "level": "Intermediate",
             "keywords": [
-                "Angular",
                 "Mongo DB",
                 "Cosmos DB",
                 "Docker",
@@ -380,8 +382,8 @@
             ]
         },
         {
-            "name": "Learning",
-            "level": "Beginner",
+            "name": "Experimenting",
+            "level": "Evaluator",
             "keywords": [
                 "Elixir",
                 "Machine Learning / AI",
@@ -389,10 +391,8 @@
                 "F#",
                 "Kubernetes",
                 "pytorch/fastai",
-                "PHP",
                 "Rust",
-                "Go",
-                "Wordpress"
+                "Go"
             ]
         }
     ],
