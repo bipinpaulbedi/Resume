@@ -69,11 +69,11 @@
             ],
             "startDate": "2017-03-20",
             "highlights": [
-                "Hands on delivery of clients projects",
+                "Hands on delivery of clients projects by developing key integration with the Azure platform using SDK and rest API",
+                "Developing apps using a clean architecture with pattern and practices such as CQRS, MediatR, Microservices etc in Azure WebApps, Service Bus, Cosmos DB, CDN etc",
                 "Represent the organization in customer-facing communication pertinent to the company’s technical expertise on the software platform including RFP's",
-                "Develop process and promote architectural best practices. Participate in architecture and design reviews for projects that require complex technical solutions",
-                "For package implementations, perform the gap analysis between business requirements and the package features, then design the configuration, customizations, extensions, interfaces needed to meet the requirements",
-                "Key stakeholder in hiring panel and corporate trainings"
+                "Participate in architecture, design/code review for projects that require complex technical solutions. Key stakeholder in hiring panel and conducting corporate technical training",
+                "Develop process and promote architectural best practices for package implementations, perform the gap analysis between business requirements and the package features, then design the configuration, customizations, extensions, interfaces needed to meet the requirements"
             ]
         },
         {
@@ -185,8 +185,7 @@
             "highlights": [
                 "Finalizing technical standards and providing technical guidance to the team",
                 "Design, code, unit test and document application as per Client requirements",
-                "SSIS Package / SQL Scripts Development for data migration",
-                "Custom Reports and RDL’s development in SSRS"
+                "SSIS Package / SQL Scripts Development for data migration and custom reports/RDL development in SSRS"
             ]
         },
         {
@@ -210,8 +209,7 @@
             "startDate": "2008-06-23",
             "endDate": "2009-11-06",
             "highlights": [
-                "Design and implementation of various technical modules",
-                "Designing and developing reusable components by utilizing various standard frameworks",
+                "Design and implementation of various technical modules including reusable components by utilizing various standard frameworks",
                 "Writing and maintaining program code with the unit tests to meet business requirements, system design and technical specifications following accredited standards"
             ]
         }
