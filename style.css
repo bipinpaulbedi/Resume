@@ -504,11 +504,11 @@ section .location {
 }
 
 #skills .item {
-  width: 16em;
+  width: 19em;
 }
 
 #skills .item .keywords {
-  width: 15em;
+  width: 17em;
 }
 
 /* Skill chart */
@@ -554,7 +554,7 @@ section .location {
   width: 7.5em;
 }
 
-.level.master .bar::after,
+.level.advance .bar::after,
 .level.native.speaker .bar::after {
   background: #59c596;
   width: 10em;

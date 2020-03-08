@@ -5,7 +5,7 @@ const dateHelpers = {
   Y: date => moment(date.toString(), ['YYYY-MM-DD']).format('YYYY'),
   DMY: date => moment(date.toString(), ['YYYY-MM-DD']).format('D MMM YYYY'),
   DIFF: (startDate, endDate) => {
-    let suffix = endDate == "Current" ? "+" : "";
+    //let suffix = endDate == "Current" ? "+" : "";
     endDate = endDate == "Current" ? new Date(Date.now()).toISOString().split('T')[0] : endDate;
     let sDate = moment(startDate.toString(), ['YYYY-MM-DD']);
     let eDate = moment(endDate.toString(), ['YYYY-MM-DD']);
@@ -28,7 +28,7 @@ const dateHelpers = {
     //let days = eDate.diff(sDate, 'days');
     const y = years == 1 ? " yr " : " yrs ";
     const m = months == 1 ? " mo " : " mos ";
-    return months > 0 ? years + suffix + y + months + m : years + suffix + y;
+    return months > 0 ? years + y + months + m : years + suffix + y;
   },
 };
 

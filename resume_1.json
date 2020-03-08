@@ -287,8 +287,8 @@
     ],
     "skills": [
         {
-            "name": "Core",
-            "level": "Advance",
+            "name": "Backend Dev. & Arch.",
+            "level": "Master",
             "keywords": [
                 ".NET Core",
                 "T-SQL / MS SQL Server",
@@ -301,53 +301,88 @@
                 "Design Patterns",
                 "No SQL",
                 "Microservices",
-                "oAuth",
+                "oAuth"
+            ]
+        },
+        {
+            "name": "Frontend Dev. & Arch.",
+            "level": "Master",
+            "keywords": [
                 "React",
                 "Javascript",
                 "Angular",
                 "Redux",
                 "Thunk/Saga",
                 "Rx/js",
-                "Redux Observables",
-                "Sitecore",
-                "Sitefinity",
-                "Umbraco",
-                "Azure",
-                "Azure Dev ops",
-                "Bamboo",
-                "Docker",
-                "Continuous Delivery",
-                "Continuous Integration",
-                "AWS"
+                "Redux Observables"
             ]
         },
         {
-            "name": "Secondary",
+            "name": "CMS/CXM",
+            "level": "Master",
+            "keywords": [
+                "Sitecore",
+                "Sitefinity",
+                "Umbraco"
+            ]
+        },
+        {
+            "name": "Cloud Arch. & Dev Ops",
+            "level": "Master",
+            "keywords": [
+                "Azure",
+                "Azure Dev ops",
+                "Bitbucket Pipelines",
+                "Docker",
+                "Continuous Delivery",
+                "Continuous Integration"
+            ]
+        },
+        {
+            "name": "Mobile Dev. & Arch.",
             "level": "Intermediate",
             "keywords": [
                 "React Native",
+                "Xamarin"
+            ]
+        },
+        {
+            "name": "Business Intelligence",
+            "level": "Intermediate",
+            "keywords": [
                 "Power BI",
                 "SSIS/SSRS",
                 "Data warehouse",
-                "Data Science",
+                "Data Science"
+            ]
+        },
+        {
+            "name": "UI Dev.",
+            "level": "Intermediate",
+            "keywords": [
                 "HTML",
                 "CSS",
-                "SASS",
-                "Mongo DB",
-                "Cosmos DB",
-                "Docker",
-                "GraphQL",
-                "NodeJs",
-                "Agile Principle and Practices",
-                "Gatsby.js",
-                "Bitbucket Pipelines"
+                "SASS"
             ]
         },
         {
             "name": "Practising",
+            "level": "Intermediate",
+            "keywords": [
+                "Mongo DB",
+                "Cosmos DB",
+                "Docker",
+                "AWS",
+                "GraphQL",
+                "NodeJs",
+                "Agile Principle and Practices",
+                "Gatsby.js"
+            ]
+        },
+        {
+            "name": "Experimenting",
             "level": "Evaluator",
             "keywords": [
-                "Xamarin",
                 "Elixir",
                 "Machine Learning / AI",
                 "Python",
