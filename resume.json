@@ -96,7 +96,8 @@
                 "Sitecore",
                 "Angular",
                 "Node",
-                "Data warehouse"
+                "Data warehouse",
+                "Typescript"
             ],
             "startDate": "2016-03-07",
             "endDate": "2017-03-17",
@@ -319,7 +320,8 @@
                 "Continuous Delivery",
                 "Continuous Integration",
                 "AWS",
-                "Sharepoint"
+                "Sharepoint",
+                "Typescript"
                 
             ]
         },
