@@ -71,6 +71,8 @@
             "highlights": [
                 "Hands-on delivery of clients projects by developing key integration with the Azure/AWS platform using SDK and rest API",
                 "Developing apps using a clean architecture with pattern and practices such as CQRS, MediatR, Microservices etc in Azure WebApps/Elastic Beanstalk, Service Bus/SQS/SNS, Cosmos DB/DynamoDB, Auroa/ SQL Server, CDN/Cloud front/ Cloud Flare, Functions/Lambda etc",
+                "Define / design the end to end, future state technical data architecture & delivery roadmap",
+                "Developed Data model and warehouse design, including ingestion & ETL from source to storage",
                 "Represent the organization in customer-facing communication pertinent to the company’s technical expertise on the software platform including RFP's",
                 "Participate in architecture, design/code review for projects that require complex technical solutions. Key stakeholder in hiring panel and conducting corporate technical training",
                 "Develop process and promote architectural best practices for package implementations, perform the gap analysis between business requirements and the package features, then design the configuration, customizations, extensions, interfaces needed to meet the requirements"
@@ -104,6 +106,7 @@
             "highlights": [
                 "Customization and implementation of responsive Sitecore e-commerce portal",
                 "SCROM implementation over Entity framework and web API",
+                "Diagnose and solve technical problems related to .NET applications, SQL databases, Web API, and a range of integrated systems.",
                 "Analysis and implementation of middle-tier API/API solution that integrates with various enterprise systems such as Siebel, Data warehouse",
                 "Deployment and maintenance of Sitecore in the Azure platform"
             ]
